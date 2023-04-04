@@ -1,6 +1,6 @@
 ## FFCS ProReg Backend Project
 
-This is the backend project for the FFCS ProReg web application. The project is built using Node.js, Express.js, and JavaScript. The application provides APIs to handle various functionalities of the FFCS ProReg web application. It uses PostgreSQL as its database.
+This is the backend project for the FFCS ProReg web application. The project is built using Node.js, Express.js, and JavaScript. The application provides APIs to handle various functionalities of the FFCS ProReg web application. It uses PostgreSQL as it's database.
 
 ### Prerequisites
 
