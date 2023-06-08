@@ -26,6 +26,7 @@ The backend application provides APIs for various functionalities of the FFCS Pr
 
 ### API Documentation
 The API documentation for the FFCS ProReg backend project is available in the docs folder. You can open the index.html file in your web browser to view the documentation.
+It can be tested at postment using the localhost url at server port 4000
 
 ### Contributing
 We welcome contributions to the FFCS ProReg backend project. To contribute, please fork the repository, create a new branch, make your changes, and submit a pull request.
