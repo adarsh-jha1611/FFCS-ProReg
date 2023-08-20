@@ -19,6 +19,7 @@ app.get('/', (request, response) => {
   })
 
 //Admin routes :http://localhost:3000/admin/
+//can also set the v1 with auth 
 
 app.post('/admin/faculty', adminRoute)
 app.post('/admin/student', adminRoute)
