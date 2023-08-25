@@ -14,5 +14,8 @@ route.post('/admin/slots',db.createSlots)
 //Creating Courses
 route.post('/admin/course',db.createCrs)
 
+//Creating Exams
+route.post('/admin/exams',db.createExm)
+
 
 module.exports = route
