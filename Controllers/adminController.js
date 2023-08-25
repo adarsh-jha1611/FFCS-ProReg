@@ -57,6 +57,19 @@ const createStu = (request, response) => {
       response.status(201).send(`Student added with ID: ${results.rows[0].id}`)
     })
   }
+// Admin access to create exams with required entites
+
+const createStu = (request, response) => {
+    const { id, stu_name, reg_crs } = request.body
+  
+    pool.query('INSERT INTO students (id, stu_name, reg_crs) VALUES ($1, $2, $3) RETURNING *', [id, stu_name, reg_crs], (error, results) => {
+      if (error) {
+        throw error
+      }
+      response.status(201).send(`Student added with ID: ${results.rows[0].id}`)
+    })
+  }
+
 
 
 
