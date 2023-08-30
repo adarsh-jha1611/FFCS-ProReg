@@ -10,6 +10,7 @@ route.get('/faculty', db.getFac)
 
 //Get Faculties by ID
 route.get('/faculty/:id', db.getFacbyID)
+//addede ID for verigication according to the schema
 
 //Get Students by ID
 route.get('/course/:id', db.getCourseByID)
