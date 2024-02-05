@@ -30,7 +30,7 @@ const getFacbyID = (request, response) => {
   }
 
 
-
+//get Student by ID
 
 const getStu = (request, response) => {
     pool.query('SELECT * FROM students ORDER BY id ASC', (error, results) => {
@@ -41,7 +41,7 @@ const getStu = (request, response) => {
     })
   }
 
-//get Student by ID
+
 
 const getCourseByID = (request, response) => {
     const id = request.params.id
