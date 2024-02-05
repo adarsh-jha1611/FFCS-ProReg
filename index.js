@@ -18,7 +18,7 @@ app.get('/', (request, response) => {
     response.json({ info: 'Adarsh Jha, 20BCE10988, VIT' })
   })
 
-//Admin routes :http://localhost:3000/admin/
+//Admin routes :http://localhost:3000/
 //can also set the v1 with auth 
 
 app.post('/admin/faculty', adminRoute)
